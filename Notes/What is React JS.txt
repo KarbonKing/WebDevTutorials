@@ -1,0 +1,8 @@
+What is React?
+
+A popular JavaScript library for building fast and insteractive user interfaces. 
+Developed by Facebook in 2011
+
+Component: a piece of the UI
+
+Every React app is a compilation of components

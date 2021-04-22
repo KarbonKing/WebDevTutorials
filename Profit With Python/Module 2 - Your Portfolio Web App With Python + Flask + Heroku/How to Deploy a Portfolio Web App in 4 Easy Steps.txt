@@ -1,0 +1,19 @@
+How to Deploy a Portfolio Web App in 4 Easy Steps
+
+
+Step 1: Create an account on heroku.com
+- Confirm your account through email verification
+- Heroku is a web hosting site
+
+
+Step 2: Create a GitHub account
+- Search Cleverprogrammer
+
+
+Step 3: Navigate to Users > Rafeh Qazi > c9_flask_portfolio_app
+- Fork the repo
+
+
+Step 4: Deploy the App
+-There should be an option to "Deploy to Heroku"
+-Enter app name and hit "Deploy app"

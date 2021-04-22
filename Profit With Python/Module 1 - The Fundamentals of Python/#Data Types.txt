@@ -1,0 +1,8 @@
+#Data Types
+
+Intergers - 8
+Float - 2.43
+String - "Hello World"
+Lists - ['banana', 'apple', 'oranges']
+tuple - ('banana', 'apple', 'oranges') #Tuples are  like lists but more difficult to alter. Not used alot.
+dictionary - {'John': "6'4", "Billy": "5'10"} #Attaches two values together

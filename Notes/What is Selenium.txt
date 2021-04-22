@@ -1,0 +1,11 @@
+What is Selenium?
+
+Selenium is a free (open source) automated testing suite for web applications accross different browsers/platforms.
+Four Main Components: Selenium (IDE), Selenium (Remote Control), WebDriver, Selenium Grid
+Selenium 1 refers to Selenium (RC)
+Selenium 2 is a combination of Selenium (RC) & WebDriver
+
+
+Who Developed Selenium?
+
+The suite was designed by Jason Huggins but the tools within the suite were created by separate devs.

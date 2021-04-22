@@ -1,0 +1,6 @@
+How to Quick Share Code
+
+
+Navigate to repl.it/languages/python_turle
+Paste in Code
+Select "Share" to share the content of that repl with others

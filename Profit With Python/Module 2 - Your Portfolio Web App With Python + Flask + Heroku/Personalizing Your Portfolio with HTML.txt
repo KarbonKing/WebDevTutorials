@@ -1,0 +1,16 @@
+Personalizing Your Portfolio with HTML (Front End)
+
+
+Navigate to Heroku account
+
+Select App
+
+Navigate to Deploy > Deployment Method > GitHub
+
+Enter repo that needs to be connected
+
+Select "Enable Automatic Deploys"
+
+Code that is edited within GitHub will now be pushed to Heroku for deployment once it's been committed to the Main Branch of the repo.
+
+HTML Front End can be adjusted and once committed the app should be updated with a refresh.

@@ -1,0 +1,31 @@
+#String Manipulation
+
+
+#Escape Characters
+\'     Single Quotes
+\\     Backslash
+\n     New Line
+\r     Carriage Return
+\t     Tab
+\b     Backspace
+\f     Form Feed
+\ooo   Octal Value
+\xhh   Hex Value
+
+
+
+Print Multiple Lines
+
+a = """
+    Lorem ipsum dolor sit amet,
+    consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt
+    ut labore et dolore magna aliqua.
+    """
+
+print(a)
+
+
+txt = "The best things in life are free!"
+print("free" in txt)
+#Output: True

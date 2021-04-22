@@ -1,0 +1,42 @@
+#Git Tutorial
+
+#Setup Username/Email for Git logging
+git config --global user.name ""
+git config --global user.email ""
+
+
+#Initialize Empty Repo
+git init
+
+#Check Repo/Committ Status
+git Status
+
+#Files must be added to the staging area first. Then they can be committed to the repo.
+#Add to Staging Area
+git add <FILE>
+git add . #Adds all the files in the staging area
+
+#Commit to Repo ( -m argurment allows you to attach notes to changes)
+git commit -m "MESSAGE/NOTES"
+
+#Roll back versions by appending the string of the commit ID to the command below 
+git checkout <STRING>
+
+#Create Branch that can be used for 
+git branch <New Branch>
+
+
+Create a new repository with command line
+echo "# WebDevTutorials" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/PH4R40H/WebDevTutorials.git
+git push -u origin main
+
+
+Push an existing repository from the command line
+git remote add origin https://github.com/PH4R40H/WebDevTutorials.git
+git branch -M main
+git push -u origin main

@@ -1,0 +1,9 @@
+HTML Validation
+
+The following resource will allow you to post in your HTML content for validation of proper
+HTML syntax formatting.
+
+validator.w3.org
+
+
+

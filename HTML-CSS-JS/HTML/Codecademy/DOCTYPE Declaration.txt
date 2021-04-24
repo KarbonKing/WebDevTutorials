@@ -1,0 +1,16 @@
+DOCTYPE Declaration
+
+
+HTML files require certain elements to set up the document properly. 
+We can let web browsers know that we are using HTML by starting our document with:
+
+
+<!DOCTYPE html>
+
+
+
+-  It tells the browser what type of document to expect, along with what version 
+of HTML is being used in the document.
+
+- To make sure your document is forever interpreted correctly, always include <!DOCTYPE html> at 
+the very beginning of your HTML documents.

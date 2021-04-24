@@ -1,0 +1,14 @@
+Video Element
+
+
+<video src="myVideo.mp4" width="320" height="240" controls>
+  Video not supported
+</video>
+
+
+- Like the <img> tag, the <video> tag requires a src attribute with a link to the video source. 
+- Unlike the <img> tag however, the <video> element requires an opening and a closing tag.
+- the width and height attributes are used to set the size of the video displayed in the browser.
+- The text, “Video not supported”, between the opening and closing video tags will only be displayed if 
+the browser is unable to load the video.
+- The controls attribute instructs the browser to include basic video controls: pause, play and skip.

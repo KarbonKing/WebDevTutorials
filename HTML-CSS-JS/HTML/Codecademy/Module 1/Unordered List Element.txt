@@ -1,0 +1,10 @@
+Unordered Lists
+
+<ul>
+  <li>Limes</li>
+  <li>Tortillas</li>
+  <li>Chicken</li>
+</ul>
+
+You can use an unordered list tag (<ul>) to create a list of items in no particular order. 
+An unordered list outlines individual list items with a bullet point.

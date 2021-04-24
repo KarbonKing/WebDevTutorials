@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+ <head></head>
+ <body></body>
+</html>
+
+To create HTML structure and content, we must add opening and closing <html> tags after 
+declaring <!DOCTYPE html>
+
+Anything between the opening <html> and closing </html> tags will be interpreted as HTML code. 
+Without these tags, it’s possible that browsers could incorrectly interpret your HTML code.

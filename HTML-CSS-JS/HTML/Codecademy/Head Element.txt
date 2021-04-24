@@ -1,0 +1,22 @@
+Head and Title Elements
+
+<html>
+    <head> </head>
+
+    <body> </body>
+</html>
+
+The <head> element contains the metadata for a web page. 
+Metadata is information about the page that isn’t displayed directly on the web page.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+<html>
+    <head>
+      <title>Webpage Title</title>    
+    </head>
+
+    <body> </body>
+</html>
+
+The <title> element sets the name of the web page and/or tab

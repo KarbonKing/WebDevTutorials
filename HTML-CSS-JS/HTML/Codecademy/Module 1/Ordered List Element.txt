@@ -1,0 +1,12 @@
+Ordered List Element
+
+Ordered lists (<ol>) are like unordered lists, except that each list item is numbered
+    - They are useful when you need to list different steps in a process or rank items for first to last.
+
+
+<ol>
+  <li>Preheat the oven to 350 degrees.</li>
+  <li>Mix whole wheat flour, baking soda, and salt.</li>
+  <li>Cream the butter, sugar in separate bowl.</li>
+  <li>Add eggs and vanilla extract to bowl.</li>
+</ol>

@@ -1,0 +1,10 @@
+Text Styling Elements
+
+
+The <em> tag emphasizes text
+    - will generally render as italic emphasis.
+
+the <strong> tag highlights important text.
+    - will generally render as bold emphasis.
+
+

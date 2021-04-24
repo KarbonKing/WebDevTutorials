@@ -1,0 +1,33 @@
+Introduction to HTML
+
+HTML Element: <p>Hello World!</p>
+
+Opening Tag: <p>
+Content: Hello World!
+Closing Tag: </p>
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+<body> element defines the structure of the webpage
+
+<body>
+  <p>What's up, doc?</p>
+</body>
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+The nesting of elements under another create parent-child element relationships for future
+heirarchy assignment in CSS
+
+body>
+  <h1>Hello World</h1>
+  <p>This paragraph is a child of the body element</p>
+  <div>
+    <p>This paragraph is a child of the div element and a grandchild of the body element</p>
+  </div> 
+</body>
+
+- <h1> is a child element of <body>
+- <p> is a child element of <div>

@@ -1,0 +1,50 @@
+Anchor Element
+
+<a href="https://www.wikipedia.org/">This Is A Link To Wikipedia</a>
+
+The anchor <a> anchor element attaches hyperlinks to the text enclosed in the opening/closing tags.
+- The href attribute is required to link the proper URL. (Not to be mixed up with the src attribute)
+- The anchor element applies strictly to linking other Webpages
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Target attribute
+
+
+<a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">The Brown Bear</a>
+
+
+The target attribute tells the browser how to open the specified hyperlink.
+- Setting the target to "_blank" will open a new tab upon clicking the link
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Linking to Relative Pages
+
+
+<a href="./contact.html">Contact</a>
+
+
+- A relative path is a filename that shows the path to a local file (a file on the same website, such as 
+./index.html)
+
+- An absolute path (a full URL, like https://www.codecademy.com/learn/learn-html 
+which is stored in a different folder). The ./ in ./index.html tells the browser to look for the file 
+in the current folder.
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Linking Non-Text Elements
+
+<a href="https://en.wikipedia.org/wiki/Opuntia" target="_blank">
+  <img src="https://www.Prickly_Pear_Closeup.jpg" alt="A red prickly pear fruit"/>
+</a>
+
+You can wrap elements with the anchor <a> element in order to hyperlink images, videos, etc..
+- Clicking the image will open the link

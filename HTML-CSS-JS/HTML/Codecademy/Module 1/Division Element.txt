@@ -1,0 +1,28 @@
+Division Element
+
+<div>
+
+a container that divides the page into sections. These sections are very useful for 
+grouping elements in your HTML together.
+
+- divs can contain any text or other HTML elements, such as links, images, or videos. 
+- Remember to always add two spaces of indentation when you nest elements inside of <div>s 
+  for better readability.
+
+
+  <body>
+  <h1>The Brown Bear</h1>
+  <div>
+    <h2>About Brown Bears</h2>
+    <h3>Species</h3>
+    <h3>Features</h3>
+  </div>
+  <div>
+    <h2>Habitat</h2>
+    <h3>Countries with Large Brown Bear Populations</h3>
+    <h3>Countries with Small Brown Bear Populations</h3>
+  </div>
+  <div>
+    <h2>Media</h2>
+  </div>
+</body>

@@ -1,0 +1,43 @@
+CSS Rules
+
+
+HTML elements can be called by CSS in the following fashion:
+
+<style> 
+    h1 {
+        color: #fff;
+        background-color: #394;
+    }
+</style>
+
+- h1 is the element being referenced
+- The color and the background colors are being set via HexColor
+- Every CSS value ends iwth a semi-colon to indicate the end of the value
+- If the same value is referenced twice. CSS will only reference the last values set for the element.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Class can be used in HTML Elements to assign a class name that can be used in CSS references
+ie. 
+
+<html lang="en">
+<head>
+    <style>
+      .heading{
+        color: #39f;
+      }
+      h1{
+          color: #394;
+      }
+    </style>
+</head>
+<body>
+  <h1 class = "heading">Title</h1>
+</body>
+</html>
+
+-class based CSS references ALWAYS override tag based elements like .heading vs h1 CSS values
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+

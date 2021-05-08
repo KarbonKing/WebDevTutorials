@@ -1,0 +1,11 @@
+The <label> element has an opening and closing tag and displays text 
+that is written between the opening and closing tags. To associate 
+a <label> and an <input>, the <input> needs an id attribute. We then 
+assign the for attribute of the <label> element with the value of the 
+id attribute of <input>
+
+<label for="meal">What do you want to eat?</label>
+<br>
+<input type="text" name="food" id="meal">
+
+The for attribute in <label> ties it to the id attribute in <input>

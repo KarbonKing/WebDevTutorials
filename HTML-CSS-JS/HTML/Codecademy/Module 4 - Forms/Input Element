@@ -1,0 +1,140 @@
+The <input> element takes input from users. It has a type attribute 
+which determines how it renders on the web page and what kind of data 
+it can accept.
+
+**OPENING TAG ONLY**
+
+When we create an <input> element with type="text", it renders a 
+text field that users can type into.
+
+It's important that we include a name attribute for the <input>  
+without the name attribute, information in the <input> won’t 
+be sent when the <form> is submitted.
+
+
+<input type="text" name="first-text-field">
+
+
+The value of the value attribute is paired with the value of the 
+name attribute and sent as text when the form is submitted.We could
+also assign a default value for the value attribute so that users 
+have a pre-filled text field when they first see the rendered form.
+
+
+<input type="text" name="first-text-field" value="already pre-filled">
+
+
+For a user to properly identify an <input> we use the appropriately 
+named <label> element.
+
+
+<label for="meal">What do you want to eat?</label>
+<br>
+<input type="text" name="food" id="meal">
+
+The for attribute in <label> ties it to the id attribute in <input>
+
+
+//////////////////////////////////////////////////////////////////////////////////
+
+Password Input - Password type
+
+we have the type="password" attribute for <input>
+
+<label for="user-password">Password: </label>
+<input type="password" id="user-password" name="user-password">
+
+//////////////////////////////////////////////////////////////////////////////////
+
+
+Number Input - Number type
+
+
+the type attribute can be assigned as "number" to exclusively take in
+numerical values into the input field.
+- The step attribute can always be used to implement incremental scale for
+numerical values.
+- The "min" and "max" can also be assigned to set the given range.
+
+<input id="years" name="years" type="number" step="1">
+
+
+//////////////////////////////////////////////////////////////////////////////////
+
+
+Sliding Scale Input - Range type
+
+we can set the type attribute to "range" which creates a slider.
+The increments of this slider is controlled by the step element.
+The "min" and "max" can also be assigned to set the given range of the slider.
+
+input id="doneness" name="doneness" type="range" min="0" max="5" step="0.5">
+
+
+//////////////////////////////////////////////////////////////////////////////////
+
+
+Checkbox Input - Checkbox type
+
+In order to select more than one value in a checkbox fashion, you can
+set type="checkbox". Each checkbox is already assigned values to the value 
+attribute of the checkboxes.
+    - each <input> has the same value for the name attribute. Using the same name 
+    for each checkbox groups the <input>s together. However, each <input> has a 
+    unique id to pair with a <label>.
+
+
+<form>
+  <p>Choose your pizza toppings:</p>
+  <label for="cheese">Extra cheese</label>
+  <input id="cheese" name="topping" type="checkbox" value="cheese">
+  <br>
+  <label for="pepperoni">Pepperoni</label>
+  <input id="pepperoni" name="topping" type="checkbox" value="pepperoni">
+  <br>
+  <label for="anchovy">Anchovy</label>
+  <input id="anchovy" name="topping" type="checkbox" value="anchovy">
+</form>
+
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+
+Multiple Choice - Radio type
+
+If we want to present multiple options and only allow for one selection,
+we'd want to assign the type="radio". The name name attribute can be used in
+the same fashion as the Checkbox Input.
+
+<form>
+  <p>What is sum of 1 + 1?</p>
+  <input type="radio" id="two" name="answer" value="2">
+  <label for="two">2</label>
+  <br>
+  <input type="radio" id="eleven" name="answer" value="11">
+  <label for="eleven">11</label>
+</form>
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+Dropdown Input
+
+
+The <select> and <option> elements can be used to create the dropdown list.
+The <select> id will tie it to the correct label. The <option>s will be assigned
+separate values so that when a selection is made a single value will be chosen
+and forwarded to the submission form.
+
+
+<form>
+  <label for="lunch">What's for lunch?</label>
+  <select id="lunch" name="lunch">
+    <option value="pizza">Pizza</option>
+    <option value="curry">Curry</option>
+    <option value="salad">Salad</option>
+    <option value="ramen">Ramen</option>
+    <option value="tacos">Tacos</option>
+  </select>
+</form>

@@ -1,0 +1,91 @@
+The <form> element is a great tool for collecting information, but then we need to send that 
+information somewhere else for processing. We need to supply the <form> element with both the
+location of where the <form>‘s information goes and what HTTP request to make. Take a look 
+at the sample <form> below
+
+
+<form action="/example.html" method="POST">
+  <h1>Creating a form</h1>
+  
+  <p>Looks like you want to learn how to create an HTML form.
+  Well, the best way to learn is to play around with it.
+  </p>
+</form>
+
+
+The action attribute determines where the information is sent.
+The method attribute is assigned a HTTP verb that is included in the HTTP request.
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Input Forms /Labeling
+
+
+
+<form action="/example.html" method="POST">
+  <label for="meal">What do you want to eat?</label>
+
+  <br>
+  <input type="text" name="food" id="meal">
+</form>
+
+
+The for attribute in <label> ties it to the id attribute in <input>
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Checkbox Forms
+
+
+<form>
+  <p>Choose your pizza toppings:</p>
+  <label for="cheese">Extra cheese</label>
+  <input id="cheese" name="topping" type="checkbox" value="cheese">
+  <br>
+  <label for="pepperoni">Pepperoni</label>
+  <input id="pepperoni" name="topping" type="checkbox" value="pepperoni">
+  <br>
+  <label for="anchovy">Anchovy</label>
+  <input id="anchovy" name="topping" type="checkbox" value="anchovy">
+</form>
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Multiple Choice Forms
+
+<form>
+  <p>What is sum of 1 + 1?</p>
+  <input type="radio" id="two" name="answer" value="2">
+  <label for="two">2</label>
+  <br>
+  <input type="radio" id="eleven" name="answer" value="11">
+  <label for="eleven">11</label>
+</form>
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Dropdown Input
+
+
+The <select> and <option> elements can be used to create the dropdown list.
+The <select> id will tie it to the correct label. The <option>s will be assigned
+separate values so that when a selection is made a single value will be chosen
+and forwarded to the submission form.
+
+
+<form>
+  <label for="lunch">What's for lunch?</label>
+  <select id="lunch" name="lunch">
+    <option value="pizza">Pizza</option>
+    <option value="curry">Curry</option>
+    <option value="salad">Salad</option>
+    <option value="ramen">Ramen</option>
+    <option value="tacos">Tacos</option>
+  </select>
+</form>

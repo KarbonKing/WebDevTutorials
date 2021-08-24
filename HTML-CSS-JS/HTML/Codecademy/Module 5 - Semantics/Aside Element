@@ -1,0 +1,25 @@
+Aside Element
+
+The <aside> element is used to mark additional 
+information that can enhance another element but isn’t 
+required in order to understand the main content.
+
+Some common uses of the <aside> element are for:
+
+Bibliographies
+Endnotes
+Comments
+Pull quotes
+Editorial sidebars
+Additional information
+
+
+
+<article>
+  <p>The first World Series was played between Pittsburgh and Boston in 1903 and was a nine-game series.</p>
+</article>
+<aside>
+  <p>
+   Babe Ruth once stated, “Heroes get remembered, but legends never die.” 
+  </p>
+</aside>

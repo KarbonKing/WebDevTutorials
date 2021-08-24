@@ -1,0 +1,27 @@
+Audio Element
+
+The <audio> element is used to embed audio content into 
+a document. Like <video>, <audio> uses src to link the 
+audio source. We create a <source> element to encapsulate 
+our audio link. We specify the kind of audio file being
+linked with the type attribute.
+
+
+
+<audio>
+  <source src="iAmAnAudioFile.mp3" type="audio/mp3">
+</audio>
+
+
+
+There are many attributes for <audio> but two common 
+attributes are controls and src.
+
+controls: automatically displays the audio controls into 
+the browser such as play and mute.
+
+src: specifies the URL of the audio file.
+
+
+More audio attributes:
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio#attributes

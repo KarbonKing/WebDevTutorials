@@ -1,0 +1,27 @@
+Figure Element
+
+<figure> is an element used to encapsulate media such as
+ an image, illustration, diagram, code snippet, etc, 
+ which is referenced in the main flow of the document.
+
+
+<figure>
+  <img src="overwatch.jpg"/>
+</figure>
+
+
+
+//////////////////////////////////////////////////////////////////////////
+
+
+Figcaption Element
+
+
+<figcaption> is an element used to describe the media in 
+the <figure> tag. Usually, <figcaption> will go inside 
+<figure>.
+
+<figure>
+  <img src="overwatch.jpg">
+  <figcaption>This picture shows characters from Overwatch.</figcaption>
+</figure>

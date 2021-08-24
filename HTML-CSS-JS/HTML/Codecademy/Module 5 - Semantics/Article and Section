@@ -1,0 +1,31 @@
+Section Element
+
+<section> defines elements in a document, such as 
+chapters, headings, or any other area of the document 
+with the same theme.
+
+
+<section>
+  <h2>Fun Facts About Cricket</h2> 
+  <p>A single match of cricket can last up to 5 days.</p>
+</section>
+
+
+///////////////////////////////////////////////////////////////////////
+
+
+Article Element
+
+The <article> element holds content such as articles, 
+blogs, comments, magazines, etc. Subheaders can be enclosed
+in these elements as well.
+
+- might contain a combination of text, images, audio, etc.
+
+
+<section>
+  <h2>Fun Facts About Cricket</h2>
+  <article>
+    <p>A single match of cricket can last up to 5 days.</p>
+  </article>
+</section>

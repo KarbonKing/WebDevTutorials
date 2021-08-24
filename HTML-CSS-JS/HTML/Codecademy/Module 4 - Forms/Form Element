@@ -38,7 +38,7 @@ The for attribute in <label> ties it to the id attribute in <input>
 Checkbox Forms
 
 
-<form>
+<form action="/example.html" method="POST">
   <p>Choose your pizza toppings:</p>
   <label for="cheese">Extra cheese</label>
   <input id="cheese" name="topping" type="checkbox" value="cheese">
@@ -57,7 +57,7 @@ Checkbox Forms
 
 Multiple Choice Forms
 
-<form>
+<form action="/example.html" method="POST">
   <p>What is sum of 1 + 1?</p>
   <input type="radio" id="two" name="answer" value="2">
   <label for="two">2</label>
@@ -74,12 +74,12 @@ Dropdown Input
 
 
 The <select> and <option> elements can be used to create the dropdown list.
-The <select> id will tie it to the correct label. The <option>s will be assigned
+The <select> id attribute will tie it to the correct <label>. The <option>s will be assigned
 separate values so that when a selection is made a single value will be chosen
 and forwarded to the submission form.
 
 
-<form>
+<form action="/example.html" method="POST">
   <label for="lunch">What's for lunch?</label>
   <select id="lunch" name="lunch">
     <option value="pizza">Pizza</option>
@@ -89,3 +89,48 @@ and forwarded to the submission form.
     <option value="tacos">Tacos</option>
   </select>
 </form>
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Data List Input
+
+Although the <select> and <datalist> share some similarities, there are some major differences.
+In the associated <input> element, users can type in the input field to search for a 
+particular option. If none of the <option>s match, the user can still use what they typed in.
+
+<form>
+  <label for="city">Ideal city to visit?</label>
+  <input type="text" list="cities" id="city" name="city">
+ 
+  <datalist id="cities">
+    <option value="New York City"></option>
+    <option value="Tokyo"></option>
+    <option value="Barcelona"></option>
+    <option value="Mexico City"></option>
+    <option value="Melbourne"></option>
+    <option value="Other"></option>  
+  </datalist>
+</form>
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Forms Overview
+
+The purpose of a <form> is to allow users to input information and send it.
+The <form>‘s action attribute determines where the form’s information goes.
+The <form>‘s method attribute determines how the information is sent and processed.
+To add fields for users to input information we use the <input> element and set the type attribute to a field of our choosing:
+Setting type to "text" creates a single row field for text input.
+Setting type to "password" creates a single row field that censors text input.
+Setting type to "number" creates a single row field for number input.
+Setting type to "range" creates a slider to select from a range of numbers.
+Setting type to "checkbox" creates a single checkbox which can be paired with other checkboxes.
+Setting type to "radio" creates a radio button that can be paired with other radio buttons.
+Setting type to "list" will pair the <input> with a <datalist> element if the id of both are the same.
+Setting type to "submit" creates a submit button.
+A <select> element is populated with <option> elements and renders a dropdown list selection.
+A <datalist> element is populated with <option> elements and works with an <input> to search through choices.
+A <textarea> element is a text input field that has a customizable area.
+When a <form> is submitted, the name of the fields that accept input and the value of those fields are sent as name=value pairs.

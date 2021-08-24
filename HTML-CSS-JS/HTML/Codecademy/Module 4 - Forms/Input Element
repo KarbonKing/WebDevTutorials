@@ -138,3 +138,83 @@ and forwarded to the submission form.
     <option value="tacos">Tacos</option>
   </select>
 </form>
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+Large Text Input
+
+The <textarea> element is used to create a bigger text field for users to
+write more text. We can add the attributes rows and cols to determine the 
+amount of rows and columns for the <textarea>. Text set in the middle of opening
+and closing elements will be displayed as default text.
+
+<form>
+  <label for="blog">New Blog Post: </label>
+  <br>
+  <textarea id="blog" name="blog" rows="5" cols="30">Default text</textarea>
+</form>
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+Submit Button
+
+To make a submit button in a <form>, we’re going to use the reliable <input> 
+element and set the type to "submit". A value can be specified to to set the 
+text within submit button. No value will set the button default to "Submit"
+
+<form>
+  <input type="submit" value="Send">
+</form>
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+Required Attribute
+
+Adding the required attribute to an input element makes the input required
+before the form can be submitted. If left empty, the browser will display a 
+small error when trying to submit. These error messages vary between browsers.
+
+<form action="/example.html" method="POST">
+  <label for="allergies">Do you have any dietary restrictions?</label>
+  <br>
+  <input id="allergies" name="allergies" type="text" required>
+  <br>
+  <input type="submit" value="Submit">
+</form>
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+Minimum & Maximum Character attributes
+
+To set a minimum number of characters for a text field, we add the minlength 
+attribute and a value to set a minimum value. Similarly, to set the maximum 
+number of characters for a text field, we use the maxlength attribute and set 
+a maximum value. This attribute is applicable to the following input types:
+      - text
+      - textarea (larger text fields)
+      - password (Very Important)
+
+
+<form action="/example.html" method="POST">
+  <label for="summary">Summarize your feelings in less than 250 characters</label>
+  <input id="summary" name="summary" type="text" minlength="5" maxlength="250" required>
+  <input type="submit" value="Submit">
+</form>
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+Patter Attribute
+
+we use the pattern attribute and assign it a regular expression, or regex. 
+Regular expressions are a sequence of characters that make up a search 
+pattern. If the input matches the regex, the form can be submitted.
+
+<form action="/example.html" method="POST">
+  <label for="payment">Credit Card Number (no spaces):</label>
+  <br>
+  <input id="payment" name="payment" type="text" required pattern="[a-zA-Z0-9]+">
+  <!--The line above sets pattern to accept everything but special characters-->
+  <input type="submit" value="Submit">
+</form>

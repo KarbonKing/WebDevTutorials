@@ -1,0 +1,33 @@
+Header Element
+
+A <header> is a container usually for either navigational 
+links or introductory content containing <h1> to <h6> 
+headings.
+
+
+<header>
+  <h1>
+     Everything you need to know about pizza!
+  </h1>
+</header>
+
+
+///////////////////////////////////////////////////////////////////
+
+Nav Element
+
+A <nav> is used to define a block of navigation links 
+such as menus and tables of contents. It is important 
+to note that <nav> can be used inside of the <header> 
+element but can also be used on its own.
+
+
+<header> 
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>      
+    </ul>
+  </nav>
+</header>
+

@@ -1,0 +1,22 @@
+The attribute selector can be used to target HTML elements 
+that already contain attributes.This alleviates the need to 
+add new code, like the class or id attributes. get more 
+granular from there by adding type and/or attribute values. 
+One way is by using type[attribute*=value].
+
+
+<img src='/images/seasons/cold/winter.jpg'>
+<img src='/images/seasons/warm/summer.jpg'>
+
+
+img[src*='winter'] {
+  height: 50px;
+}
+ 
+img[src*='summer'] {
+  height: 100px;
+}
+
+These ruleset looks for an img element with an attribute 
+of src that contains the value specified. The example above
+shows that we can even specify keywords within the attribute's value

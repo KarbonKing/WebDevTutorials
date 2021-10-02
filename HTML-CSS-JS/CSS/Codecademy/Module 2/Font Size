@@ -1,0 +1,6 @@
+To change the size of text on your web page, you can use 
+the font-size property.
+
+p {
+  font-size: 18px;
+}

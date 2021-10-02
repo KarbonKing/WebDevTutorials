@@ -1,0 +1,8 @@
+We can add CSS styles to multiple CSS selectors all at once. 
+This prevents writing repetitive code. We can separate the 
+selectors by a comma to apply the same style to both.
+
+
+h1, .menu {
+  font-family: Georgia;
+}

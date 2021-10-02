@@ -1,0 +1,12 @@
+Specificity is the order by which the browser decides 
+which CSS styles will be displayed. A best practice in 
+CSS is to style elements while using the lowest degree 
+of specificity so that if an element needs a new style, 
+it is easy to override. To make styles easy to edit, 
+it’s best to style with a type selector, if possible. 
+If not, add a class selector. If that is not specific 
+enough, then consider using an ID selector.
+
+If an element is selected by through different rulesets 
+with a type, class and id selector then the element
+will prioritize the id selector ruleset.

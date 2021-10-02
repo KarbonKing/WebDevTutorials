@@ -1,0 +1,22 @@
+pseudo-class selectors
+
+When you click on an <input> element, and a blue border
+ is added showing that it is in focus.
+
+When you click on a blue <a> link to visit to another page, 
+but when you return the link’s text is purple.
+
+When you’re filling out a form and the submit button is 
+grayed out and disabled. But when all of the fields have 
+been filled out, the button has color showing that it’s active.
+
+Psuedo Selectors: :focus, :visited, :disabled, :active
+
+
+
+p:hover {
+  background-color: lime;
+}
+
+This will make the paragraph element turn lime when the cursor
+hovers over it.

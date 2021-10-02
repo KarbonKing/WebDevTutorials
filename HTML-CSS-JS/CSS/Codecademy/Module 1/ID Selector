@@ -1,0 +1,14 @@
+If an HTML element needs to be styled uniquely, we can give 
+it an ID using the id attribute. An element’s id can only have 
+a single value, and only be used once per page.
+
+The id name is large-title, therefore the CSS selector for it is 
+#large-title.
+
+
+
+<h1 id='large-title'> ... </h1>
+
+#large-title {
+ color: red;
+}

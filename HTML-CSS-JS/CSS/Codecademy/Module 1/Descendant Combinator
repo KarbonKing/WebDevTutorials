@@ -1,0 +1,24 @@
+CSS also supports selecting elements that are nested 
+within other HTML elements, also known as descendants.
+These descendants can be called in CSS by specifying the
+parent and descendant selectors as shown.
+
+
+HTML
+<ul class='main-list'>
+  <li> ... </li>
+  <li> ... </li>
+  <li> ... </li>
+</ul>
+
+
+CSS
+.main-list li {
+ color: grey;
+}
+
+ul li{
+    font: futura;
+}
+
+The descendant selectors are separatated by spaces.

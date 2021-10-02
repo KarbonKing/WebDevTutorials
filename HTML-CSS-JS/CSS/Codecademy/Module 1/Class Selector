@@ -1,0 +1,13 @@
+Class selectors
+
+You can select specific elements using the class 
+attribute. The value of class is the selector in CSS
+
+HTML
+<p class='brand'>Sole Shoe Company</p>
+
+
+CSS
+.brand {
+ color: white;
+}

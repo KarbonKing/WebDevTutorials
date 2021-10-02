@@ -1,0 +1,18 @@
+Type Selector: matches the type of the element in the 
+HTML document.
+
+The element type is p, which comes from the HTML <p> tag.
+
+Some important notes on the type selector:
+
+The type selector does not include the angle brackets.
+Since element types are often referred to by their 
+opening tag name, the type selector is sometimes 
+referred to as the tag name or element selector.
+
+p {
+  color: green;
+}
+
+
+** p is the type selector **

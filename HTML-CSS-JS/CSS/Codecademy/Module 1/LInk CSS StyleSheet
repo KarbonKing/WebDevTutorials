@@ -1,0 +1,4 @@
+In the head tag of the HTML doc place the CSS link
+
+
+<link href="style.css" rel="stylesheet">

@@ -1,0 +1,17 @@
+One option is to make the background of an element an image. 
+This is done through the CSS property background-image.
+
+.main-banner {
+  background-image: url('https://www.example.com/image.jpg');
+}
+
+
+.
+
+The url can be a file within your project, or it can be a link 
+to an external site. To link to an image inside an existing 
+project, you must provide a relative file path.
+
+.main-banner {
+  background-image: url('images/mountains.jpg');
+}

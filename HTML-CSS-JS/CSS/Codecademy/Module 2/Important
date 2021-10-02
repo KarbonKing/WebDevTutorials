@@ -1,0 +1,16 @@
+!important can be applied to specific declarations, 
+instead of full rules. It will override any style no 
+matter how specific it is. As a result, it should almost 
+never be used.Since !important is used on the p selector’s 
+color attribute, all p elements will appear blue, even 
+though there is a more specific .main p selector that 
+sets the color attribute to red.
+
+One justification for using !important is when working 
+with multiple stylesheets.
+
+
+
+p {
+  color: blue !important;
+}

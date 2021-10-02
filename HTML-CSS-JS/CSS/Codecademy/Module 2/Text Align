@@ -1,0 +1,15 @@
+The text-align property will align text to the element 
+that holds it, otherwise known as its parent.
+
+Value Options:
+- left
+- center
+- right
+- justify ( spaces out text in order to align with the 
+right and left side of the parent element.)
+
+
+
+h1 {
+  text-align: right;
+}

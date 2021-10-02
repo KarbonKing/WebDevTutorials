@@ -1,0 +1,11 @@
+We can compound selectors to get more specific by
+combining type and class selectors.
+
+h1.special {
+ 
+}
+
+This ruleset only selects the <h1> elements that have the 
+special class. If there is a <p> element with the same class 
+then it will not be affected by the ruleset. Very useful 
+for customization.

@@ -1,0 +1,16 @@
+Font family is a CSS attribute used to change the chosen
+typeface of the text.
+Web safe fonts are a group of fonts supported across most 
+browsers and operating systems
+
+Web safe fonts: https://www.cssfontstack.com
+
+
+
+h1 {
+  font-family: Garamond;
+}
+
+h2 {
+  font-family: 'Courier New';
+}

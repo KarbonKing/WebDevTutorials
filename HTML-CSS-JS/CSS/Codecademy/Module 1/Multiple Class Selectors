@@ -1,0 +1,21 @@
+
+We can add multiple classes to an HTML element’s class 
+attribute by separating them with a space. This enables 
+us to mix and match CSS classes to create many unique 
+styles without writing a custom class for every style 
+combination needed.
+
+
+HTML
+<h1 class='green bold'> ... </h1>
+<h2 class='bold'>...</h2>
+
+
+CSS 
+.green {
+  color: green;
+}
+ 
+.bold {
+  font-weight: bold;
+}

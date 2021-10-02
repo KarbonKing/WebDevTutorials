@@ -1,0 +1,6 @@
+Universal selector selects all elements of any type.
+This is a wildcard value " * "
+
+* {
+  border: 1px solid red;
+}

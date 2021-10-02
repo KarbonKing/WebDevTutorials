@@ -1,0 +1,24 @@
+Linking your external CSS File
+
+
+You can use the <link> element to link HTML and CSS 
+files together. The <link> element must be placed within 
+the head of the HTML file. It is a self-closing tag and 
+requires the following attributes:
+
+
+href — like the anchor element, the value of this 
+attribute must be the URL, or path, to the CSS file.
+
+rel — this attribute describes the relationship between 
+the HTML file and the CSS file. Because you are linking 
+to a stylesheet, the value should be set to stylesheet.
+
+
+
+<link href='https://www.URL.com/style.css' rel='stylesheet'>
+
+                    or
+
+
+<link href='C:/temp/example.css' rel='stylesheet'>

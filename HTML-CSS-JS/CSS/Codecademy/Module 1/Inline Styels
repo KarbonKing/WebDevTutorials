@@ -1,0 +1,10 @@
+Creating Inline Styles in HTML
+
+To style an HTML element, you can add the style attribute 
+directly to the opening tag. After you add the attribute, 
+you can set it equal to the CSS style(s) you’d like 
+applied to that element.
+
+<p style='color: red;'>I'm learning to code!</p>
+
+<p style='color: red; font-size: 20px;'>I'm learning to code!</p>

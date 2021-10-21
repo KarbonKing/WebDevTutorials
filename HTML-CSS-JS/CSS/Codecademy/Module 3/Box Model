@@ -1,0 +1,12 @@
+An element’s content has two dimensions: a height and a width.
+The CSS height and width properties can be used to modify these 
+default dimensions.
+
+p {
+  height: 80px;
+  width: 240px;
+}
+
+The px in the code above stands for pixels.
+When the width and height of an element are set in pixels, 
+it will be the same size on all devices.

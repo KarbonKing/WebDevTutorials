@@ -1,0 +1,30 @@
+The space between the contents of a box and the borders of a box is known as padding.
+In CSS, you can modify this space with the padding property.
+
+
+p.content-header {
+  border: 3px solid coral;
+  padding: 10px;
+}
+
+The code in this example puts 10 pixels of space between the 
+content of the paragraph (the text) and the borders, on all 
+four sides.
+
+
+padding: 25px 50px 75px 100px;
+top padding is 25px
+right padding is 50px
+bottom padding is 75px
+left padding is 100px
+
+
+padding: 25px 50px 75px;
+top padding is 25px
+right and left paddings are 50px
+bottom padding is 75px
+
+
+padding: 25px 50px;
+top and bottom paddings are 25px
+right and left paddings are 50px

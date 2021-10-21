@@ -1,0 +1,25 @@
+Elements can be hidden from view with the visibility property.
+
+The visibility property can be set to one of the following values:
+
+hidden — hides an element.
+visible — displays an element.
+collapse — collapses an element.
+
+
+.future {
+  visibility: hidden;
+}
+
+
+It will still leave an empty space where the element is intended to display.
+
+
+
+
+
+Note: What’s the difference between display: none and visibility: hidden? 
+
+An element with display: none will be completely removed from the web page. 
+An element with visibility: hidden, however, will not be visible on the web 
+page, but the space reserved for it will.

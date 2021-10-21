@@ -1,0 +1,21 @@
+Because a web page can be viewed through displays of 
+differing screen size, we can use the following properties 
+to set minimum and maximum height and width.
+
+min-width
+max-width
+min-height
+max-height
+
+
+p {
+  min-width: 300px;
+  max-width: 600px;
+  min-height: 150px;
+  max-height: 300px;
+}
+
+
+What will happen to the contents of an element’s box if the 
+max-height property is set too low? It’s possible for the 
+content to spill outside of the box

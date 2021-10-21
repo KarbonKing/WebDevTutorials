@@ -1,0 +1,26 @@
+You can modify the corners of an element’s border box 
+with the border-radius property.
+
+div.container {
+  border: 3px solid blue;
+  border-radius: 5px;
+}
+
+The code in the example above will set all four corners 
+of the border to a radius of 5 pixels
+
+
+
+
+You can create a border that is a perfect circle by first 
+creating an element with the same width and height, and then 
+setting the radius equal to half the width of the box, which 
+is 50%.
+
+
+div.container {
+  height: 60px;
+  width: 60px;
+  border: 3px solid blue;
+  border-radius: 50%;
+}

@@ -1,0 +1,15 @@
+All major web browsers have a default stylesheet they use 
+in the absence of an external stylesheet. These default 
+stylesheets are known as user agent stylesheets. In this 
+case, the term user agent is a technical term for the browser.
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+The code in the example above resets the default margin and 
+padding values of all HTML elements. It is often the first 
+CSS rule in an external stylesheet.

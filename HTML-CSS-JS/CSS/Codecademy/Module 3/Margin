@@ -1,0 +1,40 @@
+Margin refers to the space directly outside of the box. 
+The margin property is used to specify the size of this space.
+
+p {
+  border: 1px solid aquamarine;
+  margin: 20px;
+}
+
+The code in the example above will place 20 pixels of space 
+on the outside of the paragraph’s box on all four sides.
+
+
+
+
+
+margin: 25px 50px 75px 100px;
+
+top margin is 25px
+right margin is 50px
+bottom margin is 75px
+left margin is 100px
+
+
+margin: 25px 50px 75px;
+
+top margin is 25px
+right and left margins are 50px
+bottom margin is 75px
+
+
+margin: 25px 50px;
+
+top and bottom margins are 25px
+right and left margins are 50px
+
+
+Horizontal margins (left and right), like padding, are always 
+displayed and added together. Unlike horizontal margins, 
+vertical margins do not add. Instead, the larger of the two vertical 
+margins sets the distance between adjacent elements.

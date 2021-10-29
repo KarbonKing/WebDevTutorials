@@ -1,0 +1,20 @@
+The z-index property controls how far back or how far forward an element should appear on the web page when elements overlap. This can be thought of as the depth of elements, with deeper elements appearing behind shallower elements.
+
+The z-index property accepts integer values. Depending on their values, the integers instruct the browser on the order in which elements should be layered on the web page.
+
+.blue-box {
+  background-color: blue;
+  position: relative;
+  z-index: 1;
+}
+
+In the example above, we set the .blue-box position to relative 
+and the z-index to 1. This would set the element forward on the
+webpage given the default z-index value of 0.
+
+
+Z-Index Value example
+
+-10 ------- 0 ------- 10
+Back      Default    Forward 
+

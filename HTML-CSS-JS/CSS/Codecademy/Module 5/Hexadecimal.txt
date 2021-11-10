@@ -1,0 +1,15 @@
+A hex color begins with a hash character (#) which is followed 
+by three or six characters. The characters represent values 
+for red, blue and green.
+
+darkseagreen: #8FBC8F
+sienna:       #A0522D
+saddlebrown:  #8B4513
+brown:        #A52A2A
+black:        #000000 or #000
+white:        #FFFFFF or #FFF
+aqua:         #00FFFF or #0FF
+
+You can include hex colors just as you would include named colors: 
+background-color: #9932cc;, and the letters can be uppercase or 
+lowercase.

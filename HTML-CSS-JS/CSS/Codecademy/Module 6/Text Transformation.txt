@@ -1,0 +1,11 @@
+Text can also be styled to appear in either all uppercase or 
+lowercase with the text-transform property. This property 
+accepts the following values:
+
+uppercase
+lowercase
+
+
+h1 {
+  text-transform: uppercase;
+}

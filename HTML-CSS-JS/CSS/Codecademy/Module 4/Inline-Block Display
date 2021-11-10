@@ -1,0 +1,25 @@
+Inline-block display combines features of both inline and block elements. 
+Inline-block elements can appear next to each other and we can specify 
+their dimensions using the width and height properties.
+
+
+<div class="rectangle">
+  <p>I’m a rectangle!</p>
+</div>
+<div class="rectangle">
+  <p>So am I!</p>
+</div>
+<div class="rectangle">
+  <p>Me three!</p>
+</div>
+
+
+.rectangle {
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+}
+
+
+There are three rectangular divs that each contain a paragraph of text lined 
+up horizontally.

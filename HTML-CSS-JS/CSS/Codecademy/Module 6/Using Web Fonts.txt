@@ -1,0 +1,89 @@
+Free font services, like Google Fonts and Adobe Fonts, host fonts 
+that you can link to from your HTML document with a provided 
+<link> element.
+
+You can also use fonts from paid font distributors like fonts.com 
+by downloading and hosting them with the rest of your site’s files. 
+You can create a @font-face ruleset in your CSS stylesheet to link 
+to the relative path of the font file.
+
+Google Fonts - https://fonts.google.com/
+Adobe Fonts - https://fonts.adobe.com/
+https://www.fonts.com/
+
+
+
+
+Web Font Linking
+
+When you select a font in Google Fonts, you’ll be shown all of the 
+different styles available for that particular font. You can then 
+select the styles you want to use on your site. When you’re done 
+selecting a font and its styles, you can review your selected font 
+family, and a <link> element will be automatically generated for 
+you to use on your site!
+
+The generated <link> element needs to be added to the <head> element 
+in your HTML document for it to be ready to be used in your CSS. 
+You can then create font-family declarations in your CSS using the 
+font.
+
+HTML
+<head>
+  <!-- Add the link element for Google Fonts along with other metadata -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+CSS
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+Font File Linking
+
+Fonts can also be added using a @font-face ruleset in your CSS 
+stylesheet instead of using a <link> element in your HTML document. 
+As mentioned earlier, fonts can be downloaded just like any other 
+file on the web. They come in a few different file formats, such as:
+
+OTF (OpenType Font)
+TTF (TrueType Font)
+WOFF (Web Open Font Format)
+WOFF2 (Web Open Font Format 2)
+
+With WOFF2 being the most progressive. It’s a good idea to include 
+TTF, WOFF, and WOFF2 formats with your @font-face rule to ensure 
+compatibility on all browsers. 
+Within the “Selected Families” section of Google Fonts, you can use 
+the “Download” button to download the font files to your computer. 
+The files will be downloaded as a single format, in this case, TTF. 
+You can use a tool such as Google Web Fonts Helper to generate 
+additional file types for WOFF and WOFF2. When you have the files 
+you need, move them to a folder inside your website’s working 
+directory, and you’re ready to use them in a @font-face ruleset!
+
+CSS
+@font-face {
+  font-family: 'ExampleFontName';
+  src: url('fonts/Roboto.woff2') format('woff2'),
+       url('fonts/Roboto.woff') format('woff'),
+       url('fonts/Roboto.ttf') format('truetype');
+}
+
+ - The @font-face at-rule is used as the selector. It’s recommended 
+   to define the @font-face ruleset at the top of your CSS stylesheet.
+ - The font-family property is used to set a custom name for the 
+   downloaded font. It must be surrounded by quotation marks.
+ - The src property contains three values, each specifying the relative 
+   path to the font file and its format.
+
+Once the @font-face at-rule is defined, you can use the font in 
+your stylesheet! INCLUDE QUOTATION MARKS
+
+
+p {
+  font-family: 'ExampleFontName', sans-serif;
+}

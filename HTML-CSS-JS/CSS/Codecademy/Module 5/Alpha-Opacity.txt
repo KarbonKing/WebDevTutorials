@@ -1,0 +1,15 @@
+Opacity can be specified using the Alpha property declarations.
+Alpha can only be used with HSL, RGB, and hex colors; we cannot 
+add the alpha value to name colors like green. The name of the 
+property is Alpha. Alpha is set on a scale from 0(Transparent) 
+to 1(Opaque). There is, however, a named color keyword for zero 
+opacity, transparent. 
+
+body {
+  background-color: rgba(0, 255, 0, 0.1);
+}
+
+
+.foreground {
+  background-color: hsla(325, 50%, 50%, 0.6);
+}

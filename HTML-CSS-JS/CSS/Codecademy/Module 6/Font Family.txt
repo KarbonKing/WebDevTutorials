@@ -1,0 +1,35 @@
+The font of an element can be changed using the font-family property.
+
+h1 {
+  font-family: Arial;
+}
+
+
+
+When specifying a typeface with multiple words, like Times New Roman, 
+it is recommended to use quotation marks (' ') to group the words together.
+
+h1 {
+  font-family: 'Times New Roman';
+}
+
+
+
+***There is a selection of fonts that will appear the same across all browsers 
+and operating systems. These fonts are referred to as web safe fonts. Web safe 
+fonts are good fallback fonts that can be used if your preferred font is not 
+available.***
+
+Web Safe Fonts: https://www.cssfontstack.com/
+
+
+
+h1 {
+  font-family: Caslon, Georgia, 'Times New Roman', serif;
+}
+
+In the example above, Georgia and Times New Roman are fallback fonts to Caslon. 
+When you specify a group of fonts, you have what is known as a font stack. A 
+font stack usually contains a list of similar-looking fonts. Serif and sans-serif 
+are also keyword values that can be added as a final fallback font if nothing 
+else in the font stack is available.

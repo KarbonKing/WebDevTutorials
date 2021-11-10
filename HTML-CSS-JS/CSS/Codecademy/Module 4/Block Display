@@ -1,0 +1,11 @@
+These elements fill the entire width of the page by default, 
+but their width property can also be set. Unless otherwise 
+specified, they are the height necessary to accommodate their 
+content. Elements that are block-level by default include all 
+levels of heading elements (<h1> through <h6>), <p>, <div> and 
+<footer>. 
+
+
+strong {
+  display: block;
+}

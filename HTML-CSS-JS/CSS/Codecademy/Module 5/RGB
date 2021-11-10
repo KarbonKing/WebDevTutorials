@@ -1,0 +1,8 @@
+h1 {
+  color: rgb(23, 45, 23);
+}
+
+Each of the three values represents a color component, and each 
+can have a decimal number value from 0 to 255. The first number 
+represents the amount of red, the second is green, and the third 
+is blue.

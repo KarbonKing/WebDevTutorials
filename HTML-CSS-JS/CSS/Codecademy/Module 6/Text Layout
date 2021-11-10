@@ -1,0 +1,39 @@
+Letter Spacing - used to set the horizontal spacing between the individual 
+characters in an element. It can sometimes help the readability of certain 
+fonts or styles. The letter-spacing property takes length values in units, 
+such as 2px or 0.5em.
+
+p {
+  letter-spacing: 2px;
+}
+
+
+
+Word Spacing - used to set the space between words in an element. 
+This property takes length values in units, such as 3px or 0.2em. Using em 
+values are recommended because the spacing can be set based on the size of 
+the font.
+
+h1 {
+  word-spacing: 0.3em;
+}
+
+
+
+Line Height - set how tall we want each line containing our text to be. 
+Line height values can be a unitless number, such as 1.2, or a length value, 
+such as 12px, 5% or 2em. The unitless value is preferred since it is 
+responsive based on the current font size.
+
+p {
+  line-height: 1.4;
+}
+
+
+
+Text Alignment - aligns text to its parent element.
+text-align: left|right|center|justify|initial|inherit;
+
+h1 {
+  text-align: right;
+}

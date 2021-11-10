@@ -1,0 +1,10 @@
+You can also italicize text with the font-style property. This property
+accepts the following values: 
+
+italic - causes text to appear in italics
+normal - default
+
+
+h3 {
+  font-style: italic;
+}

@@ -1,0 +1,19 @@
+The clear property specifies how elements should behave when 
+they bump into each other on the page. 
+It can take on one of the following values:
+
+left—the left side of the element will not touch any other 
+element within the same containing element.
+
+right—the right side of the element will not touch any other 
+element within the same containing element.
+
+both—neither side of the element will touch any other element 
+within the same containing element.
+
+none—the element can touch either side.
+
+
+div.special {
+  clear: left;
+}

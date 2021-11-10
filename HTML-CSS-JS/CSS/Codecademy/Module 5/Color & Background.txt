@@ -1,0 +1,11 @@
+The foreground color
+The background color
+
+color - this property styles an element’s foreground color.
+background-color - this property styles an element’s background color.
+
+h1 {
+  color: red;
+  background-color: blue;
+}
+

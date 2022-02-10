@@ -1,4 +1,4 @@
-#Python Fundamentals
+#Python Fundamentals - Variables, Functions, Loops, Arithmetic Operations
 
 #Variables
 City = "Brooklyn"

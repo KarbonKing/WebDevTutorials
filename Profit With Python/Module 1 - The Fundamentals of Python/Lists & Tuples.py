@@ -16,7 +16,7 @@ def rating_filter(movies, rating_min):
             filtered_list.append(movie[0])
     return filtered_list
 
-print(rating_filter(movies, 6.5)) #Prints the movies that are above the rating_min
+print(rating_filter(movies, 9)) #Prints the movies that are above the rating_min
 
 
 

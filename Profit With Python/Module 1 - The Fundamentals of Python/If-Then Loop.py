@@ -1,5 +1,3 @@
-
-
 # == Comparison Operator
 
 #If/Then Statement

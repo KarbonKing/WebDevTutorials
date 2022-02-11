@@ -14,3 +14,9 @@ Select "Enable Automatic Deploys"
 Code that is edited within GitHub will now be pushed to Heroku for deployment once it's been committed to the Main Branch of the repo.
 
 HTML Front End can be adjusted and once committed the app should be updated with a refresh.
+
+Now when pushing GitHub updates from your local system the Heroku app will automatically
+deploy the changes!
+
+
+Local System > GitHub > Heroku > Product

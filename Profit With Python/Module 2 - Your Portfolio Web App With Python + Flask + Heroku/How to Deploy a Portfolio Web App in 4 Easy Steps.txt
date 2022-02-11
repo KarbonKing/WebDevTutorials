@@ -1,6 +1,5 @@
 How to Deploy a Portfolio Web App in 4 Easy Steps
 
-
 Step 1: Create an account on heroku.com
 - Confirm your account through email verification
 - Heroku is a web hosting site

@@ -14,25 +14,31 @@ def <FUNCTION>(Param1, Param2):
     #etc...
 
 
+#If-Then functions
+variable = True
+if  variable == True:            #Or False
+    print("Some Stuff")
+#Check if certain words are located in strings
+txt = "The best things in life are free!"
+if "free" in txt:
+    print("Yes, 'free' is present.")
+
+
 #Loops
 for <LOOP> in range(<int>):
     print(stuff)
     print("More stuff")
 
 
-
 #Division
-If you're dividing decimals (floats) you can use a double slash '//' to round the division to a whole number
-Ex.
-
+#If you're dividing decimals (floats) you can use a double slash '//'
+#to round the division to a whole number
 9.5 / 2 = 4.75
 9.5 // 2 = 4.0
 
 
 
-#Modular Division
-Divide numbers and provides the remainder as the answer
-Ex.
+#Modular Division - divides numbers and provides the remainder as the answer
 
 9 % 3 = 0
 10 % 3 = 1

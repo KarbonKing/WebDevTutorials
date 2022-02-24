@@ -1,0 +1,5 @@
+#Install Cmder - Great Command Line tool
+https://cmder.net/
+
+#Install Anaconda - Python Package Manager (Extra steps may be necessary)
+https://www.anaconda.com/products/individual

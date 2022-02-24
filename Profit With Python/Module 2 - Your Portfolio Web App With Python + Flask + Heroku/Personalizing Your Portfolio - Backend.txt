@@ -1,0 +1,23 @@
+Backend Personalization - Python
+
+Like the Frontend example, python code can be edited and pushed to the repo
+for Automatic Deployment to Heroku.
+
+Python solely provides the backend support using the flask framework in this
+case so we'll be editing the .py file
+
+If the code is not viable then the Heroku build check will render a build error.
+
+
+Ex.
+
+@app.route('/', methods=['GET'])
+def home_page():
+	return render_template('index.html')
+
+The following block of code renders index.html as the home page(/)
+
+
+ie.
+https://URL/   - Home Page
+https://URL/about - About Page 

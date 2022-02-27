@@ -1,0 +1,19 @@
+C.R.U.D.
+
+Full Stack Development
+
+Create - Posting new data to websites
+Read - reading data from web pages
+Update - editing pre-posted data
+Delete - removing data posted on websites
+
+Many sites work in a fashion where the frontend of the sites
+calls back to a spreadsheet like database that takes data into
+specific data fields set prior.
+
+- A website like youtube may keep track of data such as:
+ likes, dislikes, views, comments, shares, date posted, etc.
+
+
+Youtube - Python
+Instagram - Python, Django

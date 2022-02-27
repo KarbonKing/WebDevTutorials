@@ -1,0 +1,12 @@
+
+git clone https://github.com/jakobowsky/cp-todo-flask.git
+
+python3 -m venv venv
+.\venv\Script\activate.bat #Windows
+. venv/bin/activate #Linux
+pip3 install -r requirements.txt
+
+python app.py
+
+ToDo App:
+http://127.0.0.1:5000

@@ -1,8 +1,0 @@
-HTML - HyperText Markup Language
-    - Building blocks of internet web pages
-
-
-
-What is an HTML Element?
-
-Elements are the buidling blocks of HTML webpage. Each element is a separate component of the Webpage.

@@ -3,11 +3,16 @@
 #Variables
 City = "Brooklyn"
 
-
+"""
+Hello
+"""
 #Functions
 Always indent the commands within your funtions!!! DONT FORGET
-def <FUNCTION>(Param1, Param2):
-    global <Variable> #Global Variables can be called within functions using the following syntax
+
+
+def < FUNCTION > (Param1, Param2):
+    # Global Variables can be called within functions using the following syntax
+    global < Variable >
 
     print(Param1)
     print("Stuff" + Param2)
@@ -16,7 +21,7 @@ def <FUNCTION>(Param1, Param2):
 
 #If-Then functions
 variable = True
-if  variable == True:            #Or False
+if variable == True:  # Or False
     print("Some Stuff")
 #Check if certain words are located in strings
 txt = "The best things in life are free!"
@@ -25,7 +30,7 @@ if "free" in txt:
 
 
 #Loops
-for <LOOP> in range(<int>):
+for < LOOP > in range( < int > ):
     print(stuff)
     print("More stuff")
 
@@ -35,7 +40,6 @@ for <LOOP> in range(<int>):
 #to round the division to a whole number
 9.5 / 2 = 4.75
 9.5 // 2 = 4.0
-
 
 
 #Modular Division - divides numbers and provides the remainder as the answer

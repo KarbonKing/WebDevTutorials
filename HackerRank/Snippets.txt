@@ -1,0 +1,28 @@
+If Else Conditions
+
+    Equals: a == b
+    Not Equals: a != b
+    Less than: a < b
+    Less than or equal to: a <= b
+    Greater than: a > b
+    Greater than or equal to: a >= b
+
+
+Check if number is in range
+b = num in range(start, stop+1)
+print(b)
+
+Output: TRUE --or-- FALSE (boolean)
+
+is_between = 5 <= 13 <= 10
+is_between = 13 in range(5, 11)
+
+
+
+
+how to check if a number is odd
+num = int(input("Enter a number: "))
+if (num % 2) == 0:
+   print("{0} is Even number".format(num))
+else:
+   print("{0} is Odd number".format(num))
